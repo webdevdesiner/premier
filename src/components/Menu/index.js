@@ -3,7 +3,9 @@ import './styles.css'
 
 const Menu = () => {
   return (
-    <div className='menuArea'>Menu</div>
+    <div className='menuArea'>
+      <button className='buttonCategorias'>CATEGORIAS</button>
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import './styles.css'
 
 const Footer = () => {
   return (
-    <div className='footerArea'>Footer</div>
+    <div className='footerArea'>2024 - ScriptPixels - por Fernando Guedes</div>
   )
 }
 

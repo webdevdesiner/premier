@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <div className='headerPesquisa'>
         <img className='menuIcone' src={menuicone} alt='icone Menu'/>
-        <div>PESQUISA</div>
+        <input className='pesquisaInput' placeholder='Digite sua pesquisa'/>
       </div>
     </div>
   )
