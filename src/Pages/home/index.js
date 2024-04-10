@@ -1,12 +1,16 @@
-import React from "react";
-import './styles.css';
-
+import React from 'react'
+import Layout from '../../components/Layout'
+import './styles.css'
 const Home = () => {
-    return(
-        <div className = "fundoVerde">
-                <h2>home js</h2>
-        </div>
-    )
+  return (
+    <div className='container'>
+      <Layout >
+        <h1>Pagina Home - Lar</h1>
+        
+    
+      </Layout>
+    </div>
+  )
 }
 
 export default Home

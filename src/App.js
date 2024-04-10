@@ -1,15 +1,12 @@
+import React from 'react'
+import Layout from './components/Layout'
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className='fundoVerde'> 
-    <header>header</header>
-    <mains>main</mains>
-    <footer>footer</footer>
-      
+    <div>
+      <Layout/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

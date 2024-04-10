@@ -1,0 +1,44 @@
+.headerArea
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerAreaLogo
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoPremier
+{
+    width: 10%;
+    height: auto;
+
+}
+
+.nomePremier
+{
+    /* width: 60%; */
+    height: 60%;
+}
+
+.mercadoLogo
+{
+    width: 10%;
+}
+
+.headerPesquisa
+{
+    width: 100%;
+    height: 50%;
+}
+
+.menuIcone
+{
+    width: 10%;
+}
