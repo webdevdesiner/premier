@@ -4,15 +4,17 @@ import Header from '../Header'
 import Footer from '../Footer'
 import Menu from '../Menu'
 import logo from '../Header/imagens/logo.png'
-import MenuOculto from '../MenuOculto'
 import BotaoWhats from '../BotaoWhats'
 
 const Layout = () => {
   return (
     <div className='fundoVerde'>
       <div className='layoutHeader'><Header/></div>
-      <div className='layoutMenu'><Menu/></div>  
-      <div className='layoutMenuOculto'><MenuOculto/></div>    
+      <div className='layoutMenu'>
+        <Menu/>
+        </div>
+
+         
       <main className='mainArea'>
         <div className='layoutBotaoWhatsapp'>
         <BotaoWhats/>

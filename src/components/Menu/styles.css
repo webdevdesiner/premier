@@ -3,8 +3,10 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .buttonCategorias
@@ -16,4 +18,36 @@
     border-radius: 25px;
     font-size: 1.5em;
     color: white;
+    
 }
+
+
+.menuAreaOculta
+{
+    width: 90%;
+    background-color: #98A25B;
+    display: none;
+    border-radius: 25px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+
+
+    position: relative;
+    top: 100%;
+
+
+    border: 1px solid #ffffff;
+    padding: 10px;
+    z-index: 1000;
+}
+li
+{
+border-bottom: 1px solid white;
+}
+
+.buttonCategorias:hover + .menuAreaOculta {
+    display: block;
+  }

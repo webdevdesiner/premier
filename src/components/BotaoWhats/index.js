@@ -4,10 +4,12 @@ import zapLogo from './Ativo 2.png'
 
 const BotaoWhats = () => {
     return(
-        <button className="buttonAreawhats">
+        
+        <button className="buttonAreawhats" >
         <img className="logoZap" src = {zapLogo}/>
         <div className="textoWhatsapp" >Whatsapp</div>
         </button>
+        
     )
 }
 
