@@ -3,10 +3,9 @@ import './styles.css'
 import Header from '../Header'
 import Footer from '../Footer'
 import Menu from '../Menu'
-import logo from '../Header/imagens/logo.png'
-import BotaoWhats from '../BotaoWhats'
 
-const Layout = () => {
+
+const Layout = ({children}) => {
   return (
     <div className='fundoVerde'>
       <div className='layoutHeader'><Header/></div>
@@ -16,10 +15,7 @@ const Layout = () => {
 
          
       <main className='mainArea'>
-        <div className='layoutBotaoWhatsapp'>
-        <BotaoWhats/>
-        </div>
-        <img className='logoHome' src = {logo}/>
+        {children}
       </main>
       <div className='layoutFooter'><Footer/></div>
     
