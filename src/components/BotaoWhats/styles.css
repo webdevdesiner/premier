@@ -1,0 +1,23 @@
+.buttonAreawhats
+{
+    background-color: #98A25B;
+    width: 60%;
+    height: 90%;
+    height: auto;
+    border-radius: 25px;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+}
+
+.logoZap
+{
+    width: 20%;
+    margin-left: 5px;
+}
+
+.textoWhatsapp
+{
+font-size: 1.5em;
+    color: white;
+}    
