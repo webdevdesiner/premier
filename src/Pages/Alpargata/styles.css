@@ -1,0 +1,41 @@
+.areProdutoGeral
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.areaProdutos
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    
+    
+}
+
+.areaProduto
+{
+    width: 50%;
+    /* background-color: red; */
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fotoProduto
+{
+    width: 60%;
+    display: flex; 
+}    
+.descricaoProduto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}

@@ -9,7 +9,7 @@ const Menu = () => {
 
   return (
     <div className='menuArea'>
-      <button className='buttonCategorias'
+      <button  className='buttonCategorias'
       onMouseEnter={() => setMenuVisible(true)}
       onMouseLeave={() => setMenuVisible(false)}
       >CATEGORIAS</button>

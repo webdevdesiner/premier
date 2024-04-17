@@ -35,13 +35,13 @@
     padding-left: 10px;
 
 
-    position: relative;
-    top: 100%;
+    position: absolute;
+    top: 22%;
 
 
     border: 1px solid #ffffff;
     padding: 10px;
-    z-index: 1000;
+
 }
 li
 {
