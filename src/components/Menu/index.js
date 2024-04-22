@@ -1,33 +1,35 @@
-import React, { useState } from 'react'
-import './styles.css'
-import Alpargata from '../../Pages/Alpargata';
+import React, { useState } from 'react';
+import './styles.css';
 
 const Menu = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-  const [menuVisible, setMenuVisible] = useState(false);
-
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
-    <div className='menuArea'>
-      <button  className='buttonCategorias'
-      onMouseEnter={() => setMenuVisible(true)}
-      onMouseLeave={() => setMenuVisible(false)}
-      >CATEGORIAS</button>
-
-      
-    < div className='menuAreaOculta'>
-        <li>ALPARGATAS</li>
-        <li>BONÉS</li>
-        <li>PERFUMES</li>
-        <li>RELÓGIOS</li>
-        <li>CORRENTES</li>
-        <li>CARTEIRAS</li>
-        <li>CHAPÉUS</li>
-        <lo>ENCOMENDA</lo>
-        
-         </div>
+    <div>
+      <div className="dropdown">
+        <button className="dropdown-toggle" onClick={toggleDropdown}>
+          Categorias
+        </button>
+        {isOpen && (
+          <ul className="dropdown-menu">
+            <li><a href='./ALPARGATAS'>ALPARGATAS</a></li>
+            <li>Bonés</li>
+            <li>Perfumes</li>
+            <li>Relógios</li>
+            <li>Chapéus</li>
+            <li>Bolsa feminina Praia</li>
+            <li>Pulseiras e correntes</li>
+            <li>Oculos</li>
+            
+          </ul>
+        )}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;

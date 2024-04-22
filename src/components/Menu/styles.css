@@ -51,3 +51,49 @@ border-bottom: 1px solid white;
 .buttonCategorias:hover + .menuAreaOculta {
     display: block;
   }
+
+  /* menu dropdown template */
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .dropdown-toggle {
+    width: 90%;
+    border-radius: 10px;
+    background-color: #98A25B;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    width: 90%;
+    top: 100%;
+    left: 0;
+    background-color: #98A25B;
+    border: 1px solid #ccc;
+    border-top: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
+    
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
