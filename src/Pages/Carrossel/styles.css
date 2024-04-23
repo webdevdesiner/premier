@@ -1,0 +1,16 @@
+.carrossel-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.carrossel-image {
+  width: 100%;
+  height: auto;
+  opacity: 0; /* Inicialmente, deixe todas as imagens invisíveis */
+  transition: opacity 1s ease-in-out; /* Adicione uma transição suave de 1 segundo para a opacidade */
+}
+
+.carrossel-image.active {
+  opacity: 1; /* Quando uma imagem está ativa, torne-a visível */
+}

@@ -16,14 +16,15 @@ const Menu = () => {
         </button>
         {isOpen && (
           <ul className="dropdown-menu">
-            <li><a href='./ALPARGATAS'>ALPARGATAS</a></li>
-            <li>Bonés</li>
+            <li><a href='./Alpargatas'>Alpargatas</a></li>
+            <li><a href='./Bones'>Bonés</a></li>
             <li>Perfumes</li>
             <li>Relógios</li>
             <li>Chapéus</li>
-            <li>Bolsa feminina Praia</li>
+            <li>Bolsas feminina Praia</li>
             <li>Pulseiras e correntes</li>
-            <li>Oculos</li>
+            <li><a href='./'>Home</a></li>
+            <li><a href='./Carrossel'>Carrossel</a></li>
             
           </ul>
         )}
